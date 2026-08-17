@@ -1,0 +1,53 @@
+# nums=[2,3,32,45,76,23,21,76,98,100] #print all numbers from list using loop
+
+# idx=0
+# while idx<len(nums):
+#     print(nums[idx])
+#     idx+=1
+
+
+# prnt only a value from touple
+# toupless=(2,3,32,45,76,23,21,76,98,100)
+
+# search=int(input("Enter a number to find:"))
+# idx=0
+# while idx<len(toupless):
+#     if toupless[idx]==search:
+#         print("this  number is in",idx)
+#     idx+=1
+
+
+# for loops
+#print all elements
+
+# elements=[2,3,32,45,76,23,21,76,98,100]
+# for values in elements:
+#      print(values)
+
+
+
+# element=(2,3,32,45,76,23,21,76,98,100)
+# x=76
+# idx=0
+# for values in element:
+#     if values==x:
+#        print("values is in index",idx)
+#     idx+=1
+
+
+# range in  for loops
+for i in range(1000):   #print number upto 1000
+    print(i)
+
+for i in range(2,50): #print number from 2 to 50
+    print(i)
+
+for i in range(2,50,2): #print all even numbers upto 50
+    print(i)
+
+for i in range(1,50,2): #print all odd numbers upto 50
+    print(i)
+
+for i in range(50,1,-1): #print all odd numbers in reverse order
+    print(i)
+
